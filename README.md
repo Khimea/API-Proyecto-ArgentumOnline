@@ -3,6 +3,12 @@
 Este proyecto esta hecho para poder gestionar datos desde la pagina web del servidor de argentum.
 Es mi primeros pasos en la tecnologia de API's
 
+En el index.js pongo una linea 
+'''
+setInterval(FtpConnect.FtpConnect, 300000);
+'''
+Esta linea se encarga de actualizar la DB cada 5 minutos.
+
 ## UTILS
 Aca van a estar los arreglos al body que va a devolver la app.<br />
 Conexion a BD.<br />
